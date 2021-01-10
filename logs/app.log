@@ -277,3 +277,13 @@ Sat, 09 Jan 2021 16:15:02 GMT | ERROR | app.js | 37007 | Test Route | Return err
 Sat, 09 Jan 2021 16:15:22 GMT | INFO | app.js | 37066 | Port Start | Server running on PORT 3000 |
 Sat, 09 Jan 2021 16:15:29 GMT | INFO | app.js | 37108 | Port Start | Server running on PORT 3000 |
 Sat, 09 Jan 2021 16:17:15 GMT | INFO | app.js | 37171 | Port Start | Server running on PORT 3000 |
+Sun, 10 Jan 2021 10:50:06 GMT | INFO | app.js | 6890 | Port Start | Server running on PORT 3000 |
+Sun, 10 Jan 2021 10:50:11 GMT | INFO | app.js | 6890 | Test Route | Request recieved at /test |
+Sun, 10 Jan 2021 10:50:11 GMT | ERROR | app.js | 6890 | Test Route | Return error response |
+Sun, 10 Jan 2021 10:52:10 GMT | INFO | app.js | 6995 | Port Start | Server running on PORT 3000 |
+Sun, 10 Jan 2021 10:52:12 GMT | INFO | app.js | 7036 | Port Start | Server running on PORT 3000 |
+Sun, 10 Jan 2021 10:52:22 GMT | INFO | app.js | 7036 | Test Route | Request recieved at /test |
+Sun, 10 Jan 2021 10:52:22 GMT | ERROR | app.js | 7036 | Body Name not present | Name field is empty |
+Sun, 10 Jan 2021 10:52:22 GMT | ERROR | app.js | 7036 | Test Route | Return error response |
+Sun, 10 Jan 2021 10:52:54 GMT | INFO | app.js | 7036 | Test Route | Request recieved at /test |
+Sun, 10 Jan 2021 10:52:54 GMT | INFO | app.js | 7036 | Test Route | Return success response |

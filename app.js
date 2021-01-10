@@ -54,17 +54,29 @@ app.post("/test", (req, res) => {
     });
 
     if (body.name == null || body.name == "") {
-        logger.error("Name field is empty");
+        logger.error("Name field is empty", {
+            file_name: filename,
+            thread_id: process.pid,
+            func_name: "Body Name not present",
+        });
         error["name"] = "name field is empty";
     }
 
     if (body.age == null || body.age == "") {
-        logger.error("Age field is empty");
+        logger.error("Age field is empty", {
+            file_name: filename,
+            thread_id: process.pid,
+            func_name: "Age field not present",
+        });
         error["age"] = "age field is empty";
     }
 
     if (body.gender == null || body.gender == "") {
-        logger.error("Gender field is empty");
+        logger.error("Gender field is empty", {
+            file_name: filename,
+            thread_id: process.pid,
+            func_name: "Gender not present",
+        });
         error["gender"] = "gender field is empty";
     }
 
