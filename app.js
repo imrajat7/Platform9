@@ -57,7 +57,7 @@ app.post("/test", (req, res) => {
         logger.error("Name field is empty", {
             file_name: filename,
             thread_id: process.pid,
-            func_name: "Body Name not present",
+            func_name: "Test Route",
         });
         error["name"] = "name field is empty";
     }
@@ -66,7 +66,7 @@ app.post("/test", (req, res) => {
         logger.error("Age field is empty", {
             file_name: filename,
             thread_id: process.pid,
-            func_name: "Age field not present",
+            func_name: "Test Route",
         });
         error["age"] = "age field is empty";
     }
@@ -75,7 +75,7 @@ app.post("/test", (req, res) => {
         logger.error("Gender field is empty", {
             file_name: filename,
             thread_id: process.pid,
-            func_name: "Gender not present",
+            func_name: "Test Route",
         });
         error["gender"] = "gender field is empty";
     }
